@@ -3,9 +3,9 @@ class ClaCom extends Component {
     state = {  } 
     render() { 
         return (
-            <div>
-                <h1>This is class component</h1>
-            </div>
+            <>
+                <h1>This is class component {this.props.classProp}</h1>
+            </>
         );
     }
 }
