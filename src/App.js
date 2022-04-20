@@ -7,6 +7,7 @@ import ReducerHook from './ReducerHook'
 import Effect from './EffectHook'
 import RefHook from './RefHook'
 import Impretive from './Impretive'
+import Context from './Context'
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
       <Effect />
       <RefHook />
       <Impretive />
+      <Context/>
     </div>
+
 
   );
 }
